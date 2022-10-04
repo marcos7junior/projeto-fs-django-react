@@ -1,19 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
+import ListComponent from './ListComponent';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-function Test() {
-  return <h1>IAE, MUNDO!</h1>
-}
-
 root.render(
   <React.StrictMode>
-    <App />
-    <Test />
+    {/* <App /> */}
+    <ListComponent />
   </React.StrictMode>
 );
 
