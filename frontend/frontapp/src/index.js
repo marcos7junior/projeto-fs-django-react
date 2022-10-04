@@ -5,9 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+function Test() {
+  return <h1>IAE, MUNDO!</h1>
+}
+
 root.render(
   <React.StrictMode>
     <App />
+    <Test />
   </React.StrictMode>
 );
 
